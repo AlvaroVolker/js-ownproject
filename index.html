@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>﻿
+    
+    
+</head>
+<body>
+   
+             
+    <header>  
+
+
+        <nav id="menu">
+
+            <ul>
+
+                <li>
+                    <a href="#">Inicio</a>    
+                </li>
+
+                <li>
+                    <a href="#">About Me</a>    
+                </li>
+
+                <li>
+                    <a href="#">Servicios</a>    
+                </li>
+
+                <li>
+                    <a href="#">Contacto</a>   
+                </li>
+
+            </ul>
+
+        </nav>
+</header>
+
+
+<section class="sec1"></section>
+<section class="content">
+    <P>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quo, suscipit harum, 
+        mollitia incidunt eaque earum eum perferendis praesentium non alias at tempora nam 
+        dolor ratione! Error sapiente cum quod.
+    </P>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At incidunt officiis aliquam? Vel neque doloribus alias quidem dolorum, rerum harum odio veritatis ex debitis esse molestias placeat,
+         delectus facilis aperiam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt adipisci aspernatur obcaecati animi aut commodi aliquam tenetur temporibus reiciendis neque laborum dolore iusto odit corrupti, ullam placeat, vel ab ipsum omnis. Inventore cupiditate voluptate ipsum atque quia itaque saepe in aliquid commodi soluta culpa dolor eius, 
+        labore delectus temporibus?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis atque officia nisi 
+        architecto qui perferendis debitis unde reiciendis aperiam, dolore, suscipit voluptatem omnis 
+        facilis rem eum aliquam praesentium ea laborum quasi ex! Voluptate, at! Neque repellat officia
+         dicta voluptatibus accusamus, a eligendi vero ea ipsum ipsam delectus accusantium, perspiciatis 
+         pariatur nulla voluptates in culpa eveniet facere perferendis consequatur nostrum inventore aliquid.
+          Quibusdam minima doloremque molestias, ut ipsa sint neque magnam ipsam labore, quos similique! Iusto
+           dicta quaerat non, quia facere, exercitationem natus labore dolorem debitis illum iure doloremque
+            aliquam esse laudantium aliquid repudiandae explicabo nemo, 
+        eos at. Tempora, explicabo!
+    </p>
+
+</section>
+
+
+<script type="text/javascript">
+
+    // Menu-toggle button
+
+    $(document).ready(function() {
+          $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+          });
+    });
+
+    // Scrolling Effect
+
+    $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+                $('nav').addClass('black');
+          }
+
+          else {
+                $('nav').removeClass('black');
+          }
+    })
+    
+
+
+    </script> 
+
+   
+</body>
+</html>
+
+
